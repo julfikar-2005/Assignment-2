@@ -1,0 +1,139 @@
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navber {
+  /* width: 1160px; */
+  margin: 0 auto;
+}
+
+.navber,
+.icon,
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul {
+  gap: 40px;
+}
+
+nav ul a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.scl-nav {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.button {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  width: 170px;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgba(254, 163, 1, 1);
+  border-radius: 12px;
+}
+
+.menu-1 {
+  color: rgba(254, 163, 1, 1);
+}
+
+.menu-2 {
+  color: rgba(1, 172, 253, 1);
+}
+
+.menu-3 {
+  color: #05D4DF;
+}
+
+.menu-4 {
+  color: #5D58EF;
+}
+
+/* navber end */
+.banner {
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 225px;
+
+}
+.item-2{
+  width: 100%;
+}
+.title {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.sub-title {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 13px;
+}
+
+.Empowering {
+  color: orange;
+}
+
+.towards-vision {
+  color: rgba(1, 172, 253, 1);
+}
+
+.btn-enroll {
+  width: 170px;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width:576px) {
+  .navber,
+.icon,
+ul{
+    display: grid;
+    flex-direction: column;
+    width: auto;
+  }
+  .banner{
+    display: grid;
+    flex-direction: column;
+    width: 357px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .item-1{
+    order: 2;
+   }  
+}
